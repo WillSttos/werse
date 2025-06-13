@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-background text-brand-text font-body;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glass morphism effect */
+  .glass-card {
+    @apply bg-brand-primary/30 backdrop-blur-lg border border-brand-secondary/20 rounded-xl shadow-glass;
+    background: linear-gradient(135deg, rgba(21, 21, 21, 0.4) 0%, rgba(21, 21, 21, 0.2) 100%);
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply px-8 py-3 bg-brand-secondary text-brand-secondary_text font-medium rounded-full 
+           hover:bg-brand-secondary/90 transition-all duration-300 shadow-glow-secondary 
+           hover:shadow-glow hover:scale-105 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply px-8 py-3 bg-transparent text-brand-secondary font-medium rounded-full 
+           border-2 border-brand-secondary hover:bg-brand-secondary hover:text-brand-secondary_text 
+           transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+
+  /* Input field styles */
+  .input-field {
+    @apply w-full px-4 py-3 bg-brand-primary/50 border border-brand-secondary/20 
+           rounded-lg text-brand-text placeholder-brand-text/50 
+           focus:border-brand-secondary focus:outline-none focus:ring-2 
+           focus:ring-brand-secondary/20 transition-all duration-300;
+  }
+
+  .input-field:focus {
+    @apply shadow-glow-secondary;
+  }
+
+  /* Skill tags */
+  .skill-tag {
+    @apply inline-block px-4 py-2 bg-brand-tertiary/20 text-brand-tertiary 
+           text-sm rounded-full border border-brand-tertiary/30 
+           hover:bg-brand-tertiary/30 transition-colors duration-300;
+  }
+
+  /* Animation delays */
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+  
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2000ms;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(21, 21, 21, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(135, 43, 255, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 147, 43, 0.7);
+}
+
+/* Selection color */
+::selection {
+  background: rgba(255, 147, 43, 0.3);
+  color: #F5F5F5;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, input, textarea, select {
+  transition: all 0.3s ease;
+}
+
+/* Custom focus styles */
+a:focus-visible, 
+button:focus-visible, 
+input:focus-visible, 
+textarea:focus-visible, 
+select:focus-visible {
+  outline: 2px solid #FF932B;
+  outline-offset: 2px;
+}
