@@ -9,7 +9,7 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: 'Identidade Visual Corporativa',
+      title: 'Identidade Visual',
       description: 'Sistema completo de identidade visual para startup de tecnologia',
       category: 'Design Gráfico',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
