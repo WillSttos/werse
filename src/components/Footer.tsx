@@ -44,7 +44,7 @@ const Footer = () => {
           {/* Brand section */}
           <div className="space-y-4">
             <h3 className="font-display text-2xl font-bold text-brand-text">
-              .Werse
+              WilliamsJr,
             </h3>
             <p className="text-brand-text/70 max-w-sm">
               Transformando ideias em experiências visuais únicas. Design com alma, pixels com propósito.
@@ -101,7 +101,7 @@ const Footer = () => {
         <div className="border-t border-brand-secondary/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-brand-text/60 text-sm">
-              © 2025 .Werse (Williams Junior). Todos os direitos reservados.
+              © 2025 Williams Jr. Todos os direitos reservados.
             </p>
             <p className="text-brand-text/60 text-sm flex items-center gap-1">
               Feito com <Heart className="text-brand-tertiary" size={16} fill="currentColor" /> por .Werse

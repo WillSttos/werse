@@ -34,7 +34,7 @@ const Header = () => {
             href="#home" 
             className="text-2xl font-bold font-display text-brand-text hover:text-brand-secondary transition-colors"
           >
-            .Werse
+            Williams Jr.
           </a>
 
           {/* Desktop Navigation */}

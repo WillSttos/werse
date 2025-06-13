@@ -113,7 +113,7 @@ const Contact = () => {
               <p className="text-brand-text/90 italic">
                 "Design com alma, pixels com propósito."
               </p>
-              <p className="text-brand-secondary text-sm mt-2">- .Werse</p>
+              <p className="text-brand-secondary text-sm mt-2">- Williams Jr.</p>
             </div>
           </div>
 

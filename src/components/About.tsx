@@ -22,7 +22,7 @@ const About = () => {
                 Sobre <span className="text-brand-secondary">Mim</span>
               </h2>
               <h3 className="text-xl text-brand-secondary font-medium mb-4">
-                Williams Junior (.Werse)
+                Williams Jr.
               </h3>
             </div>
 

@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="glass-card max-w-4xl mx-auto text-center px-8 py-16 relative z-10">
         {/* Main title with glow effect */}
         <h1 className="font-display text-6xl md:text-8xl font-bold mb-6 animate-fadeInUp">
-          <span className="text-brand-text">.Werse</span>
+          <span className="text-brand-text">Williams Jr.</span>
         </h1>
         
         {/* Subtitle */}
